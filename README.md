@@ -1,3 +1,23 @@
+# Dark Mode
+
+Web page with dark mode toggle made with React.
+
+### Live Preview: 
+
+
+
+## Key Features
+
+- Dark mode toggle
+- CSS variables
+- Moment.js
+
+## Technologies Used
+React, CSS.
+
+#### Written by Christine Lyston
+#### Date: February 2022
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
