@@ -140,18 +140,14 @@ a:hover {
 /* Buttons */
 
 button {
-  padding: 1rem 1.5rem;
+  padding: 0;
   border: none;
   border-radius: 0;
   margin: 1rem 0;
   width: fit-content;
-  background-color: gainsboro;
+  background-color: transparent;
   transition: 0.3s ease-in-out;
   cursor: pointer;
-}
-
-button:hover {
-  background-color: lightskyblue;
 }
 
 /* Nav Bar */
@@ -166,32 +162,12 @@ nav {
   margin: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
 }
 
-#logo {
+#toggle {
   width: 5rem;
   height: auto;
-}
-
-.nav-links {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav-links ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  text-transform: uppercase;
-}
-
-.nav-links li {
-  margin: 0 1.5rem;
-  cursor: pointer;
 }

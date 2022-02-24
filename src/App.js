@@ -9,9 +9,7 @@ function App() {
     <div>
       <Header />
       <section className="page-container">
-        <h1>Dark Mode</h1>
       </section>
-
     </div>
   );
 }
