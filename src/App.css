@@ -140,6 +140,21 @@ a:hover {
 /* Buttons */
 
 button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0;
+  margin: 1rem 0;
+  width: fit-content;
+  background-color: gainsboro;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightskyblue;
+}
+
+.toggle-button {
   padding: 0;
   border: none;
   border-radius: 0;
@@ -148,6 +163,10 @@ button {
   background-color: transparent;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: transparent;
 }
 
 /* Nav Bar */

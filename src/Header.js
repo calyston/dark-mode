@@ -7,9 +7,9 @@ function Header() {
   return (
     <header>
       <nav>
-        <section class="nav-container">
+        <section className="nav-container">
           <h3>Dark Mode</h3>
-          <button><img id="toggle" src={toggleoff} alt="toggle" /></button>
+          <button className="toggle-button"><img id="toggle" src={toggleoff} alt="toggle" /></button>
         </section>
       </nav>
     </header>
