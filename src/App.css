@@ -83,10 +83,12 @@ body {
   font-family: 'Noto Sans', sans-serif;
   cursor: default;
   background-color: var(--backgroundcolour);
+  transition: 0.3s ease-in-out;
 }
 
 h1, h2, h3, h4 {
-  color: var(--fontcolour)
+  color: var(--fontcolour);
+  transition: 0.3s ease-in-out;
 }
 
 h1 {
@@ -109,6 +111,7 @@ p, li, span, a, label, input, textarea {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.6rem;
   color: var(--fontcolour);
+  transition: 0.3s ease-in-out;
 }
 
 li {
@@ -191,6 +194,7 @@ button:hover {
 nav {
   width: 100%;
   background-color: var(--navcolour);
+  transition: 0.3s ease-in-out;
 }
 
 .nav-container {
