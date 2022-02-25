@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import parse from 'html-react-parser';
 import toggleon from './toggle-on.png';
 import toggleoff from './toggle-off.png';
 import './App.css';
 
 function Header() {
   const [theme, setTheme] = useState('light-mode');
+  const toggleButton = document.getElementById('toggle');
 
   const toggleTheme = () => {
     if (theme === 'light-mode') {
       setTheme('dark-mode')
+      toggleButton.src = toggleon
     } else {
       setTheme('light-mode')
+      toggleButton.src = toggleoff
     }
   }
   useEffect(() => {
